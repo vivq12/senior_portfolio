@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgb(22, 22, 22);
+}
+
+.info{
+margin-top: 380px;
+text-align: center;
+}
+
+.wrapper{
+display: flex;
+position: relative;
+}
+
+.wrapper .sidebar{
+position: fixed;
+width: 230px;
+height: 100%;
+background: rgb(53, 53, 53);
+padding: 30px, 0;
+}
+
+.wrapper .sidebar h1{
+padding: 30px;
+color: #fff;
+text-align: center;
+}
+
+.wrapper .sidebar h2{
+color: #fff;
+font-size: 18px;
+}
+
+.wrapper .sidebar ul li{
+color: #fff;
+text-transform: uppercase;
+padding: 15px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+border-top: 1px solid rgba(225, 225, 225, 0.05);
+
+}
+
+.wrapper .sidebar ul li a{
+color: #fff;
+display: block;
+}
+
+.wrapper .sidebar ul li:hover{
+background: rgb(46, 46, 46);
+
+}
+
+.main_content{
+margin-left: 300px;
+padding: 20px;
+color: #fff;
+}
+
+.main_content h1{
+color: #fff;
+margin-left: 650px;
+}
+
+.project_buttons button{
+margin-top: 20px;
+margin-bottom: 60px;
+height: 180px;
+width: 1450px;
+}
+
+.project_buttons button:hover{
+filter: brightness(70%);
+}
